@@ -6,6 +6,7 @@
 *.lo
 *.o
 *.obj
+qrc_*.cpp
 
 # Precompiled Headers
 *.gch
@@ -30,3 +31,8 @@
 *.exe
 *.out
 *.app
+google-chat
+
+# Automatically generated Makefiles and build files
+Makefile
+.qmake.stash
