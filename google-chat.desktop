@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Name=Google Chat
+GenericName=Chat Client
+Comment=Chat client for Google Chat
+Exec=/usr/local/bin/google-chat
+StartupNotify=true
+Terminal=false
+Icon=google-chat
+Type=Application
+Categories=Multimedia;Audio;
+MimeType=x-scheme-handler/http;x-scheme-handler/https;
+StartupWMClass=GoogleChat

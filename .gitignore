@@ -31,7 +31,7 @@ qrc_*.cpp
 *.exe
 *.out
 *.app
-google-chat
+/google-chat
 
 # Automatically generated Makefiles and build files
 Makefile

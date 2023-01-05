@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>google-chat.qml</file>
+        <file>index.theme</file>
+        <file>icons/google-chat/512x512/google-chat.png</file>
+        <file>icons/google-chat/256x256/google-chat.png</file>
+        <file>icons/google-chat/192x192/google-chat.png</file>
+        <file>icons/google-chat/160x160/google-chat.png</file>
+        <file>icons/google-chat/128x128/google-chat.png</file>
+        <file>icons/google-chat/96x96/google-chat.png</file>
+        <file>icons/google-chat/64x64/google-chat.png</file>
+        <file>icons/google-chat/48x48/google-chat.png</file>
+        <file>icons/google-chat/32x32/google-chat.png</file>
+        <file>icons/google-chat/16x16/google-chat.png</file>
+        <file>icons/google-chat/scalable/google-chat.svgz</file>
+    </qresource>
+</RCC>
