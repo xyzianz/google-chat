@@ -2,8 +2,9 @@
 A Qt6-based chat client for Google Chat 
 
 ## Build instructions
-qmake6 google-chat.pro
-make all
+
+    qmake6 google-chat.pro
+    make all
 
 ## Features
 * Support for multiple profiles with the `--profile` command line argument
