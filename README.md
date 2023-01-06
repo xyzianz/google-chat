@@ -1,10 +1,11 @@
 # google-chat
 A Qt6-based chat client for Google Chat 
 
-## Build instructions
+## Build and install instructions
 
-    qmake6 google-chat.pro
+    PREFIX=/usr qmake6 google-chat.pro
     make all
+    sudo make install
 
 ## Features
 * Support for multiple profiles with the `--profile` command line argument
@@ -23,14 +24,6 @@ A Qt6-based chat client for Google Chat
 
     # Start with a different DPI
     QT_SCALE_FACTOR=1.43 ./google-chat
-
-## Install
-No installation script yet.
-
-But you can install manually by putting:
-* icons from the `icons` folder in `/usr/local/share/icons/hicolor/*x*/apps/google-chat.png`
-* the executable (`google-chat`) in `/usr/local/bin/`
-* the desktop file (`google-chat.desktop`) in `/usr/local/share/applications/` or `~/.local/share/applications/`
 
 ## Why a dedicated Google Chat client?
 I needed to scratch my own itch...
