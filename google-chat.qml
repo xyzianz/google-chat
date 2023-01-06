@@ -44,7 +44,6 @@ Window {
     SystemTrayIcon {
         visible: true
         icon.name: "google-chat"
-        icon.source: "qrc:/icons/google-chat.png"
         
         onActivated: {
             if (mainwindow.visible) {
